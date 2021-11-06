@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONLIINE CALCULATOR </title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+
+
+<h1>
+    ONLINE CALCULATOR.
+</h1>
+
+<h3>
+
+</h3>
+
+<form name="form1" class="calci" action="cal.html" method="post">
+    <input type="text" name="answer" id="display">
+    <br>
+    <br>
+    <input type="button" name="" id="cut" value="C"
+        onclick="form1.answer.value=form1.answer.value.substring(0,form1.answer.value.lenght*1-1)" id="">
+
+    <input type="button" name="" class="btndesign" value="00" onclick="form1.answer.value+='00'" id="">
+    <input type="button" name="" class="OperatorDesign" value="/" onclick="form1.answer.value+='/'" id="">
+    <br>
+    <br>
+
+    <input type="button" name="" class="btndesign" value="7" onclick="form1.answer.value+='7'" id="">
+    <input type="button" name="" class="btndesign" value="8" onclick="form1.answer.value+='8'" id="">
+    <input type="button" name="" class="btndesign" value="9" onclick="form1.answer.value+='9'" id="">
+    <input type="button" name="" class="OperatorDesign" value="*" onclick="form1.answer.value+='*'" id="">
+
+    <br>
+    <br>
+
+    <input type="button" name="" class="btndesign" value="4" onclick="form1.answer.value+='4'" id="">
+    <input type="button" name="" class="btndesign" value="5" onclick="form1.answer.value+='5'" id="">
+    <input type="button" name="" class="btndesign" value="6" onclick="form1.answer.value+='6'" id="">
+    <input type="button" name="" class="OperatorDesign" value="-" onclick="form1.answer.value+='-'" id="">
+
+    <br>
+    <br>
+
+    <input type="button" name="" class="btndesign" value="1" onclick="form1.answer.value+='1'" id="">
+    <input type="button" name="" class="btndesign" value="2" onclick="form1.answer.value+='2'" id="">
+    <input type="button" name="" class="btndesign" value="3" onclick="form1.answer.value+='3'" id="">
+    <input type="button" name="" class="OperatorDesign" value="+" onclick="form1.answer.value+='+'" id="">
+
+    <br>
+    <br>
+    <input type="button" name="" value="0" onclick="form1.answer.value+='0'" id="zero">
+    <input type="button" name="" class="btndesign" value="." onclick="form1.answer.value+='.'" id="">
+    <input type="button" name="" class="btndesign" id="equal" value="="
+        onclick="form1.answer.value = eval(form1.answer.value) " id="">
+
+
+</form>
+
+
+
+</html>

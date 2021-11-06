@@ -1,0 +1,119 @@
+    body{
+        margin: 0;
+        padding: 0;
+        line-height: 0.5;
+        background-color: rgb(186, 55, 226);
+        
+        
+    }
+
+    .calci{
+        width: 357px;
+        padding:  100px 0px 100px 0px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: 0.25px;
+        
+        text-align: center;
+    }
+    #display{
+        width: 350px;
+        border: none;
+        background-color: white;
+        border-radius: 33px;
+        width: 75%;
+        height: 45px;
+        font-size: 27px;
+        font-family: monospace;
+        margin: auto;
+
+    }
+    .btndesign{
+        width: 55px;
+        height: 55px;
+        padding-top: -1;
+        border: none;
+        font-family:monospace ;
+        font-size: 27px;
+        font-weight: 500;
+        border-radius: 50%;
+        margin: 5px;
+        cursor: pointer;
+        background-color: white;
+    }
+    .OperatorDesign{
+        width: 55px;
+        height: 55px;
+        padding-top: -1;
+        border: none;
+        font-family:monospace ;
+        font-size: 27px;
+        font-weight: 500;
+        border-radius: 50%;
+        margin: 5px;
+        cursor: pointer;
+        background-color: white;
+        
+    }
+    .OperatorDesign:hover{
+        background-color: rgb(14, 164, 233);
+    }
+    .btndesign:hover{
+        background-color: rgb(14, 164, 233);
+    }
+    #zero{
+        width: 127px;
+        height: 55px;
+        padding-top: -1;
+        border: none;
+        font-family:monospace ;
+        font-size: 27px;
+        font-weight: 500;
+        border-radius: 25px;
+        margin: 5px;
+        cursor: pointer;
+        background-color: white;
+
+    }
+    h1{
+        color:white;
+        text-align: center;
+        margin-top:7%;
+        font-size: 45px;
+        font-weight: bolder;
+        font-family: 'Trebuchet MS';
+       
+        
+    }
+    #cut{
+        width: 127px;
+        height: 55px;
+        padding-top: -1;
+        border: none;
+        font-family:monospace ;
+        font-size: 27px;
+        font-weight: 500;
+        border-radius: 25px;
+        margin: 5px;
+        cursor: pointer;
+        background-color: white;
+    }
+    #cut:hover{
+        background-color: rgb(233, 14, 14);
+    }
+    #zero:hover{
+        background-color: rgb(14, 164, 233);
+    }
+    #equal:hover{
+        background-color: rgb(245, 219, 70);
+    }
+
+/*         
+        animation: newanimation 10s infinite; */
+    
+    /* @keyframes newanimation {
+        from {background-color: rgb(26, 235, 207);}
+        to {background-color: rgb(54, 125, 231);}
+      } */
